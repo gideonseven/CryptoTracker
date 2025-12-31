@@ -1,4 +1,4 @@
-package com.gt.cryptotracker.crypto.presentation.coin_list.components
+package com.gt.cryptotracker.crypto.presentation.coin_list
 
 import androidx.compose.runtime.Immutable
 import com.gt.cryptotracker.crypto.presentation.models.CoinUi
