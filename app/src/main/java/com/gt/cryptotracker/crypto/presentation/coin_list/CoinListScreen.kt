@@ -17,7 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import com.gt.cryptotracker.crypto.presentation.coin_list.components.CoinListItem
-import com.gt.cryptotracker.crypto.presentation.coin_list.components.CoinListState
+import com.gt.cryptotracker.crypto.presentation.coin_list.CoinListState
 import com.gt.cryptotracker.crypto.presentation.coin_list.components.previewCoin
 import com.gt.cryptotracker.ui.theme.CryptoTrackerTheme
 
