@@ -1,5 +1,7 @@
 package com.gt.cryptotracker.crypto.presentation.coin_detail
 
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -59,5 +61,15 @@ fun LineChart(
 
     var isShowingDataPoints by remember {
         mutableStateOf(selectedDataPoint != null)
+    }
+
+    Canvas(
+        modifier = modifier
+            .fillMaxSize()
+    ) {
+        val minLabelSpacingYPx = style.minYLabelSpacing.roundToPx()
+        val verticalPaddingPx = style.verticalPadding.roundToPx()
+        val horizontalPaddingPx = style.horizontalPadding.roundToPx()
+        val xAxisLabelSpacingPx = style.xAxisLabelSpacing.roundToPx()
     }
 }
